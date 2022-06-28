@@ -819,10 +819,6 @@ a {
 
 /* -------------------------Модальное окно--------------- */
 
-.modal-form {
-  padding: 40px;
-}
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -854,6 +850,7 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms linear;
+  padding: 40px;
 }
 
 .close {
@@ -909,6 +906,10 @@ a {
   fill: #2196f3;
 }
 
+.modal-field {
+  margin-bottom: 20px;
+}
+
 .input-icon {
   position: absolute;
   top: 50%;
@@ -938,10 +939,6 @@ a {
 .input-block {
   position: relative;
   margin-bottom: 10px;
-}
-
-.input-block-area {
-  margin-bottom: 20px;
 }
 
 .modal-area {
@@ -988,10 +985,10 @@ a {
   display: block;
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 24);
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
-
+  justify-content: center;
   display: flex;
   align-items: center;
 }
